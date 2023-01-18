@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img src="./img/Vector.png" alt="Logo da Alura">
+        <div>
+            <div class="box">
+                <div class="lightbar"></div>
+                <div class="topLayer"></div>
+                <h2>Decodificador</h2>
+            </div>
+        </div>
+            <input type="checkbox" class="checkbox" id="chk">
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+    </header>
+    <main>
+        <div class="container">
+            <div class="topColor"></div>
+            <textarea id="">Digite seu texto</textarea>
+            <div class="alert">
+                <ion-icon name="alert-circle"></ion-icon>
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons">
+                <a href="#"><span onclick="criptografar">criptografar</span></a>
+                <a href="#"><span id="button" onclick="descriptografar">descriptografar</span></a> 
+            </div>   
+            <div>
+
+            </div> 
+        </div>
+        <div class="column2">
+            <div class="rectangleColor"></div>
+            <div class="rectangle">
+                <img src="./img/High quality products 1 1.png" alt="Foto de um Boneco">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <div class="buttons">
+                    <a href="#"><span onclick="copiar">copiar</span></a> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
